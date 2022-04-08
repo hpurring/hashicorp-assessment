@@ -10,4 +10,4 @@
 
 `git fetch` first identifies if your tracking branch has a connection to your local branch. If a connection exists, `git fetch` adds changes from the remote branch to your tracking branch without altering data in your local branch. To merge changes from the remote branch into your local branch, use `git merge origin/[branch name]`.
 
-`git pull` simply does a `git fetch` followed immediately by `git merge`. This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
+`git pull` executes `git fetch` immediately followed by `git merge`. While this is often the desired result, many developers prefer to use `git fetch` followed by `git merge` to understand all code changes prior to the merge.
